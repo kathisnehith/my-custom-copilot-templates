@@ -1,0 +1,4 @@
+https://docs.google.com/document/d/1RPWz5vCrgyA9DTxjRCExxCdD_IiTx38r_1Rwx_IY_p8/edit?usp=sharing
+
+https://github.com/Hack23/cia-compliance-manager/blob/main/.github/agents/code-review-agent.md
+https://github.com/github/awesome-copilot

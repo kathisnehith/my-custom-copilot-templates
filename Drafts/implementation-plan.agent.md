@@ -78,25 +78,7 @@ If the Gap List is non-empty, ask the user a numbered questionnaire. Rules:
 
 If the Gap List is empty, state that explicitly and proceed to Phase 5.
 
-### Phase 5 — Draft in Chat
 
-Compose the full requirements document **inline in the chat message** (a single fenced Markdown block). It must be self-contained, deterministic, and free of placeholder text.
-
-Suggested sections (adapt to the request — omit any that do not apply, add any that do):
-
-- Title and one-paragraph summary
-- Goals and non-goals
-- Stakeholders / target users
-- Functional requirements (numbered, e.g. `REQ-001`)
-- Non-functional requirements (`NFR-001`, …)
-- Constraints (`CON-001`, …)
-- Assumptions (`ASM-001`, …) — only assumptions confirmed by the user
-- Acceptance criteria (`AC-001`, …) — each independently verifiable
-- Affected files / modules (with paths, when known from Phase 2)
-- Dependencies (libraries, services, other work)
-- Risks and open questions (should be empty or near-empty after Phase 4)
-- Out-of-scope items
-- References (links to attachments, issues, docs the user provided)
 
 Every requirement, criterion, and constraint must trace back to either user-provided input or codebase evidence. Do not invent.
 
