@@ -1,8 +1,8 @@
 ---
 description: "Strategic planning and architecture assistant focused on thoughtful analysis before generation of implementation plan. Helps developers understand clarifying task requirements, and develop comprehensive implementation strategies for application creation"
 name: implementation-planner
-agents: [research-analyzer]
-tools: ["agent", "search/codebase", "vscode/askQuestions", "read/problems",
+agents: ['research-analyzer']
+tools: ["agent", "agent/runSubagent", "search/codebase", "vscode/askQuestions", "read/problems",
   "search/textSearch",
   "search/usages",
   "vscode/vscodeAPI",
