@@ -1,8 +1,10 @@
 ---
 name: research-analyzer
 description: Task research specialist for comprehensive project analysis and business implementation understanding from user-provided sources only.
+agents: ["implementation-planner"]
 tools:
   [
+    "agent",
     "search/codebase",
     "search/textSearch",
     "search/fileSearch",
@@ -22,13 +24,13 @@ tools:
     "vscode/askQuestions",
     "todo"
   ]
-model: Claude Opus 4.6 (copilot)
+model: Claude Haiku 4.5
 handoffs: 
   - label: Start Implementation
     agent: implementation-planner
-    prompt: `/prompts/implementation-planner.md`
+    prompt: start the implementation planning based on research findings files using the folder `/business-research-doc/` as source of truth for understanding the implementation requirements, constraints, and guidance.
     send: true
-    model: GPT-5.4 (copilot)
+    model: GPT 5.2 (copilot)
 ---
 
 # Role Definition
